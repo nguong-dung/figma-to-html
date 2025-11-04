@@ -278,13 +278,13 @@ a {
 .popular-top {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .popular-top .desc {
   margin-top: 16px;
   color: #5f5b53;
   font-size: 1.8rem;
-  font-style: normal;
   line-height: 1.67;
 }
 
@@ -300,7 +300,11 @@ a {
   cursor: pointer;
 }
 
-.popular-top .controls{
+.popular-top .controls {
   display: flex;
   gap: 18px;
+}
+
+.popular-top .info{
+  width: 45.8rem;
 }
